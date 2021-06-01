@@ -1,0 +1,151 @@
+/*@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic,500italic);
+@import url('font-awesome.min.css');
+@import url('bootstrap.css');*/
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Antic Slab', serif;*/
+    font-size: 17px;
+    color: #4b4b4b;
+    text-align: left;
+    background-color: white;
+}
+
+.titlebar {
+  height: 40px;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Antic Slab', serif;*/
+  font-size: 22px;
+  color: #F0B323;
+  text-align: left;
+  background-color: #660000;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.cta-logo {
+  height: 100%;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Antic Slab', serif;*/
+  font-size: 24px;
+  color: #F0B323;
+  text-align: left;
+  float: left;
+  background-color: #660000;
+}
+
+.nav-menu {
+  height: 100%;
+  /*width: 100%800px;*/
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Antic Slab', serif;
+  font-size: 20px;
+  color: #F0B323;
+  text-align: left;
+  float: right;
+  /*color: #EAEAEA;*/
+  background-color: #660000;
+}
+
+.nav-menu-item {
+  valign: right;
+  width: 120px;
+  color: blue;
+}
+
+
+a.titleitem {
+  font-size: 24px;
+  color: #F0B323;
+  background-color: #660000;
+  text-decoration: none;
+}
+
+a.menuitem {
+  color: #EAEAEA;
+  background-color: #660000;
+  text-decoration: none;
+}
+
+a.menuitem:hover {
+  color: #F0B323;
+  background-color: #660000;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.main-content {
+  font-family: 'Antic Slab', serif;
+  font-size: 18px;
+  margin: 15px;
+  padding: 15px;
+  float: left;
+}
+
+.left-key {
+  text-align: right;
+  height: 40px;
+}
+
+.right-key {
+  text-align: left;
+  height: 30px;
+  border-left: 3px solid #aaaaaa;
+  padding: 5px;
+  width: 500px;
+}
+
+
+
+.sidebar-content {
+  font-family: 'Antic Slab', serif;
+  font-size: 16px;
+  float: right;
+  width: "200px";
+  margin: 15px;
+  padding: 15px;
+  background-color: "red";
+}
+
+img.headshot {
+  border-radius: 25%;
+  overflow: hidden;
+}
+
+.headshot-container {
+  width: "150px";
+  text-align: left;
+  border-radius: 25%;
+  overflow: hidden;
+}
+
+.news-container {
+  text-align: left;
+}
+
+
+
+.footer-row {
+  background-color: #660000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 5px;
+}
