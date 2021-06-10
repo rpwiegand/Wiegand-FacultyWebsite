@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Antic Slab', serif;*/
+    font-family: 'Antic Slab', serif;
     font-size: 17px;
     color: #4b4b4b;
     text-align: left;
@@ -21,7 +21,7 @@ html, body {
   width: 100%;
   margin: 5px;
   padding: 5px;
-  font-family: 'Antic Slab', serif;*/
+  font-family: 'Antic Slab', serif;
   font-size: 22px;
   color: #F0B323;
   text-align: left;
@@ -35,7 +35,7 @@ html, body {
   width: 200px;
   margin: 0px;
   padding: 0px;
-  font-family: 'Antic Slab', serif;*/
+  font-family: 'Antic Slab', serif;
   font-size: 24px;
   color: #F0B323;
   text-align: left;
@@ -58,7 +58,7 @@ html, body {
 }
 
 .nav-menu-item {
-  valign: right;
+  vertical-align: right;
   width: 120px;
   color: blue;
 }
@@ -136,6 +136,10 @@ img.headshot {
   text-align: left;
 }
 
+
+p,li{
+  margin: 20px 0;
+}
 
 
 .footer-row {
