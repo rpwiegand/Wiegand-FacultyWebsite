@@ -44,7 +44,36 @@
       <h3><b>Publications</b> (<a href="https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/publications/wiegand.bib">BiBTeX</a>)</h3>
       <hr>
       <bibtex src="https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/publications/wiegand.bib"></bibtex>
-      <div id="bibtex_display"></div>
+      <div class="bibtex_topics"> </div>
+      <div class="bibtex_structure">
+        <div class="group year" extra="ASC number">
+            <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
+            <div style="padding-bottom:10px;"></div>
+            <div class="sort journal" extra="DESC string">
+              <div class="templates"></div>
+            </div>
+        </div>
+      </div>
+      <div id="bibtex_display">
+        <div class="if bibtex_template" style="display: none;">
+          <ul> <li>
+            <div class="if author">
+              <span class="author"></span>
+              <span class="if year">[<span class="year"></span>]</span>
+            </div>
+            <span class="if title">
+              <a class="url">
+                &#8220;<span class="title"></span>&#8221;,
+              </a>
+            </span>
+            <div>
+              <span class="if journal"><em><span class="journal"></span></em></span>
+              <span class="if booktitle"><em><span class="booktitle"></span></em></span>
+              <span class="if volume">vol. <span class="volume"></span>,</span>
+              <span class="if journal number">(<span class="number"></span>)</span>              
+            </div>
+          </li></ul>      
+      </div>
     </div>
 
     <div class="sidebar-content">

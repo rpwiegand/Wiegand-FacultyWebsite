@@ -45,7 +45,6 @@ html, body {
 
 .nav-menu {
   height: 100%;
-  /*width: 100%800px;*/
   margin: 0px;
   padding: 0px;
   font-family: 'Antic Slab', serif;
@@ -53,7 +52,6 @@ html, body {
   color: #F0B323;
   text-align: left;
   float: right;
-  /*color: #EAEAEA;*/
   background-color: #660000;
 }
 
@@ -87,12 +85,14 @@ a.menuitem:hover {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+
 .main-content {
   font-family: 'Antic Slab', serif;
   font-size: 18px;
   margin: 15px;
   padding: 15px;
   float: left;
+  /*width: 500px;*/
 }
 
 .left-key {
@@ -114,7 +114,7 @@ a.menuitem:hover {
   font-family: 'Antic Slab', serif;
   font-size: 16px;
   float: right;
-  width: "200px";
+  width: 300px;
   margin: 15px;
   padding: 15px;
   background-color: "red";
@@ -126,7 +126,7 @@ img.headshot {
 }
 
 .headshot-container {
-  width: "150px";
+  width: 150px;
   text-align: left;
   border-radius: 25%;
   overflow: hidden;
@@ -152,4 +152,31 @@ p,li{
   margin-bottom: 10px;
   height: 50px;
   border-radius: 5px;
+}
+
+
+.content-panel {
+  background-color: #e0dede;
+  width: 700px;  
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.paragraph-header {
+  font-family: 'Antic Slab', serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+
+.paragraph-description {
+  font-family: 'Antic Slab', serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;  
 }
