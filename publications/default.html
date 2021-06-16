@@ -19,7 +19,7 @@
   <link href="../styles.css" id="wiegand-css" rel="stylesheet">
   <link rel="icon" type="image/png" href="../images/Winthrop-favicon.png"/>
 
-  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> -->
+  <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 </head>
 
@@ -41,19 +41,21 @@
 
   <div class="content" id="content">
     <div class="main-content" id="publication-content">
-      <h3><b>Publications</b> (<a href="https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/publications/wiegand.bib">BiBTeX</a>)</h3>
+      <h2><b>Publications</b> (<a href="https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/publications/wiegand.bib">BiBTeX</a>)</h2>
       <hr>
+      <a name="top"></a>
       <bibtex src="https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/publications/wiegand.bib"></bibtex>
-      <div class="bibtex_topics"> </div>
+
       <div class="bibtex_structure">
-        <div class="group year" extra="ASC number">
-            <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
+        <div class="group year" extra="DESC number">
+            <a href="#top" style="display: inline"><em>(Back to Top)</em></a>
             <div style="padding-bottom:10px;"></div>
             <div class="sort journal" extra="DESC string">
               <div class="templates"></div>
             </div>
         </div>
       </div>
+
       <div id="bibtex_display">
         <div class="if bibtex_template" style="display: none;">
           <ul> <li>
@@ -69,8 +71,8 @@
             <div>
               <span class="if journal"><em><span class="journal"></span></em></span>
               <span class="if booktitle"><em><span class="booktitle"></span></em></span>
-              <span class="if volume">vol. <span class="volume"></span>,</span>
-              <span class="if journal number">(<span class="number"></span>)</span>              
+              <span class="if volume">, vol. <span class="volume"></span></span>
+              <span class="if journal number"> (<span class="number"></span>)</span>              
             </div>
           </li></ul>      
       </div>

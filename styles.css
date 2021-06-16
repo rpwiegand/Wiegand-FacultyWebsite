@@ -16,6 +16,19 @@ html, body {
     background-color: white;
 }
 
+h2 {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4b4b4b;
+  text-align: left;
+  background-color: white;
+}
+
+
 .titlebar {
   height: 40px;
   width: 100%;
@@ -92,7 +105,7 @@ a.menuitem:hover {
   margin: 15px;
   padding: 15px;
   float: left;
-  /*width: 500px;*/
+  width: 700px;
 }
 
 .left-key {
@@ -114,7 +127,7 @@ a.menuitem:hover {
   font-family: 'Antic Slab', serif;
   font-size: 16px;
   float: right;
-  width: 300px;
+  width: 200px;
   margin: 15px;
   padding: 15px;
   background-color: "red";
@@ -179,4 +192,11 @@ p,li{
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0px;  
+}
+
+.YEAR { 
+  font-size: 18px; 
+  font-weight: bold; 
+  display: inline; 
+  margin-left:8px;
 }
