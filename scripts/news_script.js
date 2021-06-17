@@ -1,3 +1,22 @@
+/** 
+ *   Author:  R. Paul Wiegand
+ *   Created: 6/17/2021
+ * 
+ *   This is a very simply script to display news items on a web page.  It reads
+ *   a simple JSON file that is a list of items containing two fields (a date and
+ *   some text), then it displays the most recent X of these, where X is a parameter
+ *   of the GetNewsJSON() function.
+ * 
+ *   It assumes the existence of a div container with the ID "news-container" in your
+ *   HTML and places the list in that container.  All you should need in your HTML (other
+ *   than loading this script somewhere) is:
+ 
+    <div id="news-container">
+        <script>GetNewsJSON(8);</script>
+    </div>
+
+ **/
+
 
 // Append each news item to the list
 function AppendData(data, itemLimit) {
@@ -21,6 +40,7 @@ function AppendData(data, itemLimit) {
     }
     const sortedNews = news.sort((a, b) => b.date - a.date);
 
+    // Create the list items for just a subset
     var newsIdx = 0;
     while ( (newsIdx < sortedNews.length) && (newsIdx < itemLimit) ) {
         var li = document.createElement("li");
@@ -34,22 +54,13 @@ function AppendData(data, itemLimit) {
 
         newsIdx++;        
     }
-/*     var newsIdx = 0;
-    while ( (newsIdx < data.length) && (newsIdx < itemLimit) ) {
-        // Create the list item HTML container
-        var li = document.createElement("li");
-        li.setAttribute("class", "news-item");
-
-        var newsDate = new Date(data[newsIdx].date);
-        var newsText = data[newsIdx].text;
-        li.innerHTML = "<i>[" + newsDate.toDateString() + "]</i> &nbsp;" + newsText;
-
-        ulContainer.appendChild(li);
-
-        newsIdx++;
-    } */
 }
 
+
+// The main function called to get the news list.  This 
+// loads the news.json file right off of GitHub.  So all
+// I ever have to do is edit that JSON then push, and my
+// site should be able to immediately pick up the changes.
 function GetNewsJSON(itemLimit) {
     fetch('https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/scripts/news.json')
     .then(function (response) {
