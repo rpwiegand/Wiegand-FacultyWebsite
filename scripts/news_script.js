@@ -42,7 +42,7 @@ function AppendData(data, itemLimit) {
         var newsText = data[i].text;
         news.push( {date: newsDate, text: newsText} );
     }
-    //const sortedNews = news.sort((a, b) => b.date - a.date);
+    var sortedNews = news; //news.sort((a, b) => b.date - a.date);
 
     // Create the list items for just a subset
     var newsIdx = 0;
