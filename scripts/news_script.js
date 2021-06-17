@@ -2,7 +2,7 @@
  *   Author:  R. Paul Wiegand
  *   Created: 6/17/2021
  * 
- *   This is a very simply script to display news items on a web page.  It reads
+ *   This is a very simple script to display news items on a web page.  It reads
  *   a simple JSON file that is a list of items containing two fields (a date and
  *   some text), then it displays the most recent X of these, where X is a parameter
  *   of the GetNewsJSON() function.
@@ -18,7 +18,12 @@
  **/
 
 
-// Append each news item to the list
+/**
+ *  This function takes a JSON object and an item limit
+ *  an modifies the current HTML document to add the 
+ *  appropriate items as a list to the document in 
+ *  sorted order.
+ **/
 function AppendData(data, itemLimit) {
     // Get the div container from the web page 
     // where these news items will go
@@ -57,10 +62,12 @@ function AppendData(data, itemLimit) {
 }
 
 
-// The main function called to get the news list.  This 
-// loads the news.json file right off of GitHub.  So all
-// I ever have to do is edit that JSON then push, and my
-// site should be able to immediately pick up the changes.
+/**
+*  The main function called to get the news list.  This 
+*  loads the news.json file right off of GitHub.  So all
+*  I ever have to do is edit that JSON then push, and my
+*  site should be able to immediately pick up the changes.
+*/
 function GetNewsJSON(itemLimit) {
     fetch('https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/scripts/news.json')
     .then(function (response) {
