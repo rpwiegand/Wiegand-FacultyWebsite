@@ -147,6 +147,13 @@ img.headshot {
 
 .news-container {
   text-align: left;
+  padding: 0px;
+}
+
+#news-list {
+  padding: 0px;
+  font-size: 12px;
+  list-style-type: none;
 }
 
 
@@ -200,3 +207,4 @@ p,li{
   display: inline; 
   margin-left:8px;
 }
+
