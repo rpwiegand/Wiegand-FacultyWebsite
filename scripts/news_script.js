@@ -42,7 +42,7 @@ function AppendData(data, itemLimit) {
         var newsText = data[i].text;
         news.push( {date: newsDate, text: newsText} );
     }
-    var sortedNews = news; //news.sort((a, b) => b.date - a.date);
+    var sortedNews = news.sort((a, b) => b.date - a.date);
 
     // Create the list items for just a subset
     var newsIdx = 0;
@@ -54,7 +54,7 @@ function AppendData(data, itemLimit) {
         // Populate the container with the date and the text
         var newsDate = new Date(sortedNews[newsIdx].date);
         var newsText = sortedNews[newsIdx].text;
-        li.innerHTML = "<i>[" + newsDate.toDateString() + "]</i> &nbsp;" + newsText;
+        li.innerHTML = "<i>[" + newsDate.toDateString() + "]</i><br>" + newsText;
 
         // Append the LI to the UL and increment the counter
         ulContainer.appendChild(li);
