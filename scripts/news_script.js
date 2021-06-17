@@ -69,7 +69,7 @@ function AppendData(data, itemLimit) {
 *  loads the news.json file right off of GitHub.  So all
 *  I ever have to do is edit that JSON then push, and my
 *  site should be able to immediately pick up the changes.
-*/
+**/
 function GetNewsJSON(itemLimit) {
     fetch('https://raw.githubusercontent.com/rpwiegand/Wiegand-FacultyWebsite/master/scripts/news.json')
     .then(function (response) {
