@@ -1,17 +1,18 @@
 [
     {
-        "id": "1",
-        "date": "2021-01-01",
-        "text": "Terrible things occurred"
+        "date": "2021-05-16",
+        "text": "I finished by first year at Winthrop!"
     },
     {
-        "id": "2",
-        "date": "2021-03-14",
-        "text": "Pi Day!"
+        "date": "2021-05-07",
+        "text": "Winthrop CBA students graduation!"
     },
     {
-        "id": "3",
-        "date": "2021-06-19",
-        "text": "Finally getting this thing working?"
+        "date": "2021-05-17",
+        "text": "I attended FLAIRS-34"
+    },
+    {
+        "date": "2021-06-17",
+        "text": "I got this JavaScript news feed working"
     }
 ]
