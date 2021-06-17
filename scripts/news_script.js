@@ -38,7 +38,7 @@ function AppendData(data, itemLimit) {
     // Build a new dictionary of texts, then sort them by date
     var news = [];
     for (var i=0; i<data.length; i++) {
-        var newsDate = new Date(data[i].date);
+        var newsDate = new Date(data[i].date + "T12:00:00");
         var newsText = data[i].text;
         news.push( {date: newsDate, text: newsText} );
     }
