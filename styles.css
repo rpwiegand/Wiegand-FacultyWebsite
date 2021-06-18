@@ -179,8 +179,8 @@ p,li{
   background-color: #e0dede;
   width: 700px;  
   text-align: justify;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 25px;
   padding: 10px;
 }
@@ -200,6 +200,16 @@ p,li{
   margin-top: 0px;
   margin-bottom: 0px;  
 }
+
+li, ul.content-list {
+  margin: 0px;
+}
+
+a.content-link:link, a.content-link:visited, a.content-link:hover, a.content-link:active  { 
+  text-decoration: none;
+  color: #660000;
+}
+
 
 .YEAR { 
   font-size: 18px; 
