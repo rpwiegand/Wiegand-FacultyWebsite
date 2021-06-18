@@ -201,7 +201,7 @@ p,li{
   margin-bottom: 0px;  
 }
 
-li, ul.content-list {
+li.content-list, ul.content-list {
   margin: 0px;
 }
 
