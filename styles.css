@@ -201,6 +201,17 @@ p,li{
   margin-bottom: 0px;  
 }
 
+
+.paragraph-description-research {
+  font-family: 'Antic Slab', serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 70%;
+  float: left;  
+}
+
 li.content-list, ul.content-list {
   margin: 0px;
 }
