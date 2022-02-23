@@ -1,11 +1,45 @@
 [
     {
-	"date": "2022-01-14",
-	"text": "Meet teacher, 1:30p THU 212"
+        "date": "2022-03-12",
+        "text": "Band plays, Oh My Soul, @1p"
+    },
+    {
+        "date": "2022-03-03",
+        "text": "DSML Meeting"
+    },
+    {
+        "date": "2022-03-24",
+        "text": "Wu Talk, Whitton @11a"
+    },
+    {
+        "date": "2022-03-10",
+        "text": "Conlan Talk, Whitton @11a"
+    },
+
+    {
+        "date": "2022-02-24",
+        "text": "Math/DS Candidate Talk 2"
+    },
+
+    {
+        "date": "2022-02-17",
+        "text": "Math/DS Candidate Talk 1"
+    },
+    {
+        "date": "2022-02-17",
+        "text": "DSML Meeting"
+    },
+    {
+        "date": "2022-02-03",
+        "text": "DSML Meeting"
+    },
+    {
+  	    "date": "2022-01-14",
+	    "text": "Meet teacher, 1:30p THU 212"
     },
     {
         "date": "2022-01-11",
-	"text": "Spring term starts!"
+	    "text": "Spring term starts!"
     },
     {
         "date": "2021-11-18",
