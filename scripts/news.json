@@ -1,5 +1,37 @@
 [
     {
+        "date": "2022-11-12",
+        "text": "Band plays, Common Market, @7p"
+    },
+    {
+        "date": "2022-09-26",
+        "text": "Band plays, Oh My Soul, @7p"
+    },
+    {
+        "date": "2022-09-15",
+        "text": "Band plays Don't Sweat It Festival, @8p"
+    },
+    {   
+        "date": "2022-09-08",
+        "text": "1st DSML mtg, @11a"
+    },
+    {
+        "date": "2022-08-30",
+        "text": "1st ACM mtg, @4:30p"
+    },
+    {
+        "date": "2022-08-26",
+        "text": "Band plays, Oh My Soul, @7p"
+    },
+    {
+        "date": "2022-07-02",
+        "text": "Band plays, Skylark Social Club, @8p"
+    },
+    {
+        "date": "2022-05-28",
+        "text": "Band plays, Oh My Soul, @1p"
+    },
+    {
         "date": "2022-03-12",
         "text": "Band plays, Oh My Soul, @1p"
     },
