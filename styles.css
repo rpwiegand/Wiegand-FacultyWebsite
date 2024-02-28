@@ -30,12 +30,12 @@ h2 {
 
 
 .titlebar {
-  height: 40px;
+  height: 50px; 
   width: 100%;
   margin: 5px;
   padding: 5px;
   font-family: 'Antic Slab', serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #F0B323;
   text-align: left;
   background-color: #660000;
